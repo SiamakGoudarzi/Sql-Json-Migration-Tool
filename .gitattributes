@@ -1,15 +1,12 @@
-*.sql linguist-language=sql
-*.json linguist-language=json
-
-# Force GitHub to recognize .sql files as T-SQL (SQL Server)
+# 1. Force GitHub to recognize .sql files as T-SQL (SQL Server)
+# This ensures correct syntax highlighting and language bar color
 *.sql linguist-language=sql-server
 
-# Treat JSON files in the data folder as documentation/assets 
-# This prevents JSON from dominating the Language Statistics bar
+# 2. Treat JSON files in the data folder as documentation/assets 
+# This ensures JSON doesn't overshadow your SQL in the language statistics
 data/*.json linguist-vendored
 
-# Ensure consistent line endings for cross-platform compatibility
+# 3. Global settings for line endings
+# Ensures consistent formatting between Windows and Linux/Mac
 * text=auto
-
-# Explicitly set encoding for SQL files to avoid character issues
 *.sql text eol=crlf
