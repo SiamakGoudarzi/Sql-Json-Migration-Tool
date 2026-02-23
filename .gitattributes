@@ -1,3 +1,6 @@
+*.sql linguist-language=sql
+*.json linguist-language=json
+
 # Force GitHub to recognize .sql files as T-SQL (SQL Server)
 *.sql linguist-language=sql-server
 
