@@ -1,3 +1,19 @@
+--------------------------------------------------------------------------------
+-- PROJECT: Advanced JSON to Relational Data Migration
+-- SOURCE CODE ORIGIN: 2024 (Migrated to GitHub in 2026)
+--------------------------------------------------------------------------------
+-- DESCRIPTION:
+-- This script provides a production-grade solution for extracting nested JSON
+-- data into normalized SQL Server tables. It utilizes OPENJSON and CROSS APPLY
+-- to ensure high performance and data integrity.
+--
+-- TECHNICAL STACK:
+-- * T-SQL (SQL Server 2016+)
+-- * JSON Parsing (JSON_VALUE, OPENJSON)
+-- * Schema Design (Normalization)
+--------------------------------------------------------------------------------
+
+
 /* * Project: JSON to Relational Schema Migration
  * Developed by: [Siamak Goudarzi / GitHub SiamakGoudarzi]
  * * Description: 
@@ -117,4 +133,5 @@ END
 ELSE 
 BEGIN
     PRINT 'ERROR: JSON source is empty or invalid.';
+
 END
