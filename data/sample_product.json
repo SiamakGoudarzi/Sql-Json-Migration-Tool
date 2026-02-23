@@ -1,0 +1,38 @@
+{
+  "status": 200,
+  "data": {
+    "product": {
+      "id": 1001,
+      "title_en": "Advanced Smart Device Alpha X",
+      "status": "marketable",
+      "brand": {
+        "id": 50,
+        "title_en": "Leading Tech Brand"
+      },
+      "category": {
+        "id": 101,
+        "code": "electronics-smart-devices"
+      },
+      "specifications": [
+        {
+          "title": "Technical Details",
+          "attributes": [
+            { "title": "Weight", "values": ["180g"] },
+            { "title": "Dimensions", "values": ["150x70x8 mm"] }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 5001,
+          "warranty": { "id": 1, "title_en": "24-Month Premium Warranty" },
+          "color": { "id": 10, "title": "Space Gray", "hex_code": "#545454" },
+          "seller": { "id": 200, "title": "Global Official Store", "code": "GOS-001" },
+          "price": { "selling_price": 999.00, "rrp_price": 1100.00, "currency": "USD" },
+          "shipment_methods": { "description": "Express Shipping", "providers": [{ "title": "Global Logistics" }] }
+        }
+      ],
+      "expert_reviews": { "description": "High-performance smart device with integrated AI features and premium build quality." }
+    }
+  }
+}
