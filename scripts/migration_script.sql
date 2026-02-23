@@ -12,8 +12,6 @@
 -- * JSON Parsing (JSON_VALUE, OPENJSON)
 -- * Schema Design (Normalization)
 --------------------------------------------------------------------------------
-
-
 /* * Project: JSON to Relational Schema Migration
  * Developed by: [Siamak Goudarzi / GitHub SiamakGoudarzi]
  * * Description: 
@@ -135,3 +133,4 @@ BEGIN
     PRINT 'ERROR: JSON source is empty or invalid.';
 
 END
+
