@@ -1,6 +1,6 @@
 # 1. Force GitHub to recognize .sql files as T-SQL (SQL Server)
 # This ensures correct syntax highlighting and language bar color
-*.sql linguist-language=sql-server
+*.sql linguist-language=sql
 
 # 2. Treat JSON files in the data folder as documentation/assets 
 # This ensures JSON doesn't overshadow your SQL in the language statistics
