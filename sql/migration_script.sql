@@ -13,7 +13,7 @@
 -- * Schema Design (Normalization)
 --------------------------------------------------------------------------------
 /* * Project: JSON to Relational Schema Migration
- * Developed by: [Siamak Goudarzi /SiamakGoudarzi]
+ * Developed by: [Siamak Goudarzi]
  * * Description: 
  * Optimized T-SQL script to parse complex product JSON data 
  * into normalized database tables.
@@ -133,5 +133,6 @@ BEGIN
     PRINT 'ERROR: JSON source is empty or invalid.';
 
 END
+
 
 
