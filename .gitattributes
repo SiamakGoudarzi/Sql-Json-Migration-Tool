@@ -10,3 +10,6 @@ data/*.json linguist-vendored
 
 # Explicitly set encoding for SQL files to avoid character issues
 *.sql text eol=crlf
+
+*.sql linguist-detectable=true
+*.sql linguist-documentation=false
